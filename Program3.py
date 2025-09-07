@@ -1,5 +1,5 @@
-% Program 3:
-% Design and implement a Convolutional Neural Network(CNN) for classification of image dataset.
+
+ #Program 3:Design and implement a Convolutional Neural Network(CNN) for classification of image dataset.
 digitDatasetPath = fullfile(matlabroot, 'toolbox', 'nnet', 'nndemos', 'nndatasets', 'DigitDataset');
 imds = imageDatastore(digitDatasetPath, 'IncludeSubfolders', true, 'LabelSource', 'foldernames');
 minSetCount = min(countEachLabel(imds).Count);
