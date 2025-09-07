@@ -1,5 +1,6 @@
-% Program 2:
-% Write a program to demonstrate the working of a deep neural network for classification task.
+
+# Program 2: Write a program to demonstrate the working of a deep neural network for classification task.
+
 digitDatasetPath = fullfile(matlabroot, 'toolbox', 'nnet', 'nndemos', 'nndatasets', 'DigitDataset');
 imds = imageDatastore(digitDatasetPath, 'IncludeSubfolders', true, 'LabelSource', 'foldernames');
 disp("Total number of images: " + numel(imds.Files));
