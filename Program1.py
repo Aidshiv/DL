@@ -1,5 +1,6 @@
-% Program 1:
-% Design and implement a neural-based network for generating word embedding for words in a document corpus.
+
+#Program 1: Design and implement a neural-based network for generating word embedding for words in a document corpus.
+
 textData = fileread('sample_corpus.txt');
 textData = lower(textData);
 textData = regexprep(textData, '[^a-z\s]', '');
