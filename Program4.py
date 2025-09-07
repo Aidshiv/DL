@@ -1,5 +1,5 @@
-% Program 4:
-% Build and demonstrate an autoencoder network using neural layers for data compression on image dataset.
+# Program 4: Build and demonstrate an autoencoder network using neural layers for data compression on image dataset.
+
 digitDatasetPath = fullfile(matlabroot, 'toolbox', 'nnet', 'nndemos', 'nndatasets', 'DigitDataset');
 imds = imageDatastore(digitDatasetPath, 'IncludeSubfolders', true, 'LabelSource', 'foldernames');
 minSetCount = min(countEachLabel(imds).Count);
